@@ -24,12 +24,7 @@
 		"Новое сообщение с сайта бистро 'Дежавю'",
 		"Логин: ".$login."\n".
 		"Пароль: ".$pass."\n".
-		"Email: ".$email."\n".
-		"Логин: ".$login,
-		"From: no-reply@mydomain.ru \r\n")) 
-		{
-			echo ('Письмо успешно отправлено!');
-	} else {
-		echo ('Заполните все поля');
-	}
+		"Email: ".$email,
+		"From: no-reply@mydomain.ru \r\n"))
+
 ?>
