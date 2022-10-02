@@ -25,6 +25,10 @@
 		"Логин: ".$login."\n".
 		"Пароль: ".$pass."\n".
 		"Email: ".$email,
-		"From: no-reply@mydomain.ru \r\n"))
-
+		"From: no-reply@mydomain.ru \r\n")) 
+		{
+		echo ('Письмо успешно отправлено!');
+	} else {
+		echo ('Заполните все поля');
+	}
 ?>
