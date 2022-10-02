@@ -7,7 +7,7 @@
 	$login = urldecode($login);
 	$login = trim($login);
 
-	$pass = $_POST['pass'];
+	$pass = $_POST['password'];
 	$pass = htmlspecialchars($pass);
 	$pass = urldecode($pass);
 	$pass = trim($pass);
